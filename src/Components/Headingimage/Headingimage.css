@@ -1,0 +1,30 @@
+
+.Texts{
+    color: white;
+    margin-top: 70px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    
+    width: 100%;
+}
+.Title{
+   font-size: 50px;
+   font-weight: bold;
+   font-style: unset ;
+}
+.para{
+    font-size: 25px;
+    font-weight: 500;
+    font-style: italic;
+    overflow: hidden;
+    width: 55%;
+}
+@media (max-width:500px) {
+    .Title{
+        font-size: 40px;
+    }
+    .para{
+        font-size: 20px;
+    }
+}

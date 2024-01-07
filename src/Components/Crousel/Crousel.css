@@ -1,0 +1,35 @@
+.carousel-item img{
+    height: 40vw;
+}
+#crousel1{
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 350px;
+}
+.btn {
+    padding: 5px 10px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    transition: all 0.8s;
+}
+.red-btn {
+    color: white;
+    background-color: #156eff;  
+    border: none; margin-left: 12px;
+    transition: all 0.7s ease;
+}
+
+.red-btn:hover{
+    color: white;
+    background-color: #3f88ff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all 0.7s ease;
+}
+@media (max-width:620px) {
+    .carousel-item img{
+        height: 43vw;
+    }  
+}

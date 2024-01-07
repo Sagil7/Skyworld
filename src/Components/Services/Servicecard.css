@@ -1,0 +1,54 @@
+.services{
+/* border: 1px solid black; */
+padding: 20px;  
+background-color: #f9faff;
+}
+.services h1{
+    font-weight: 700;
+}
+.serviece1{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.serviece2{
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-img-top{
+   background-color: white;
+    width: 150px;
+    height: 150px;
+}
+#knowmore{
+    width: 150px;
+    height: 55px;
+    background-color: #f9faff;
+    color: black;
+    border-radius: 3px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 2px solid black;
+}
+#knowmore:hover{
+    background-color: #052f48;
+    color: white;
+    /* border: none; */
+    
+}
+@media (max-width: 700px){
+.serviece1{
+    flex-wrap: wrap;
+}
+.serviece2{
+    flex-wrap: wrap;
+}
+
+}
