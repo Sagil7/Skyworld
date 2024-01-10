@@ -1,6 +1,7 @@
 import React from 'react'
 import './Wwd.css'
 import workericon from './worker_782899.png'
+import { Link } from 'react-router-dom'
 
 function Wwd() {
     return (
@@ -43,7 +44,8 @@ function Wwd() {
                 <h2 >Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, minus?</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut voluptatem fugiat labore ad aspernatur aperiam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, at? and the important part is not important</p>
                 <p id='thirdpara'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui aliquam maiores adipisci quam quo dicta consectetur, pariatur quis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla iste vero, in eligendi tempora minima?</p>
-                <button>Learn more</button>
+                <Link to="/about"> <button>Learn more</button></Link>
+                
             </div>
         </div>
 

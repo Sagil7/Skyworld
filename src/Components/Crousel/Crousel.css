@@ -1,7 +1,31 @@
 .carousel-item img{
-    height: 40vw;
+    height: 38vw;
+    opacity: 0.8;
+    
 }
-#crousel1{
+.Covertitle{
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.3em;
+    line-height: 60px;
+    color: white;
+}
+.crouselbutton{
+    position: absolute;
+    left: 0%;
+     border: none;
+    height: 50px;
+    width: 11%;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: #163020;
+}
+#downcovertitle{
+color: #163020;
+}
+.crousel1{
     color: white;
     font-size: 40px;
     position: absolute;

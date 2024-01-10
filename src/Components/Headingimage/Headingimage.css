@@ -9,12 +9,12 @@
     width: 100%;
 }
 .Title{
-   font-size: 50px;
+   font-size: 60px;
    font-weight: bold;
    font-style: unset ;
 }
 .para{
-    font-size: 25px;
+    font-size: 35px;
     font-weight: 500;
     font-style: italic;
     overflow: hidden;

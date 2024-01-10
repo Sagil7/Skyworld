@@ -13,35 +13,31 @@ function Footer() {
 				<p class="footer-links">
 					<a href="#" class="link-1">Home</a>
 					
-					<a href="#">Blog</a>
-				
-					<a href="#">Pricing</a>
-				
 					<a href="#">About</a>
-					
-					<a href="#">Faq</a>
-					
-					<a href="#">Contact</a>
+				
+					<a href="#">Services</a>
+				
+				
 				</p>
 
-				<p class="footer-company-name">Company Name © 2015</p>
+				<p class="footer-company-name">Sky World © 2015</p>
 			</div>
 
 			<div class="footer-center">
 
 				<div>
 					<i class="fa fa-map-marker"></i>
-					<p><span>444 S. Cedros Ave</span> Solana Beach, California</p>
+					<p><span>3RD FLOOR, 54-B, SARAI JULAINA</span> New Delhi, South East Delhi-110025</p>
 				</div>
 
 				<div>
 					<i class="fa fa-phone"></i>
-					<p>+1.555.555.5555</p>
+					<p>+918800435737</p>
 				</div>
 
 				<div>
 					<i class="fa fa-envelope"></i>
-					<p><a href="mailto:support@company.com">support@company.com</a></p>
+					<p><a href="mailto:tradersexport9@gmail.com">tradersexport9@gmail.com</a></p>
 				</div>
 
 			</div>
@@ -55,10 +51,9 @@ function Footer() {
 
 				<div class="footer-icons">
 
-					<a href="#"><i class="fa fa-facebook"></i></a>
-					<a href="#"><i class="fa fa-twitter"></i></a>
-					<a href="#"><i class="fa fa-linkedin"></i></a>
-					<a href="#"><i class="fa fa-github"></i></a>
+					<a href="https://www.facebook.com/profile.php?id=61554521030244&mibextid=ZbWKwL"><i class="fa fa-facebook"></i></a>
+					<a href="https://www.instagram.com/skyworld5376?igsh=aW85eHAyOG53d2Zn"><i class="fa fa-instagram"></i></a>
+					<a href="https://www.facebook.com/profile.php?id=61554521030244&mibextid=ZbWKwL"><i class="fa fa-linkedin"></i></a>
 
 				</div>
 

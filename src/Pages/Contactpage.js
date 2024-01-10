@@ -1,12 +1,12 @@
 import React from 'react'
 import Contact from '../Components/Contact/Contact'
 import Headingimage from '../Components/Headingimage/Headingimage'
-import Aboutpageimg from './Aboutuspageimg.jpg'
+import Contactimg from './contactimg.jpg'
 
 function Contactpage() {
   return (
     <div>
-      <Headingimage cardimg={Aboutpageimg} Title="About Us" story="What we do and how we are so good at it.."/>
+      <Headingimage cardimg={Contactimg} Title="Contact Us" story="Reach Out and Connect: We're Listening"/>
       <Contact/>
     </div>
   )

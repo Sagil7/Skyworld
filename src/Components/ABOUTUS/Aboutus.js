@@ -1,6 +1,7 @@
 import React from 'react'
 import './Aboutus.css'
 import worker1 from './Worker1.jpg';
+import { Link } from 'react-router-dom';
 // import helmetimg from './helmet.jpg'
 function Aboutus() {
   return (
@@ -24,11 +25,11 @@ function Aboutus() {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, a.
       </p>
 
-      <a>
+      <Link to="/about">
         <button class="explore1">
           Learn more
         </button>
-      </a>
+      </Link>
     </div>
     <img class="blueDots" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/aw3.svg"/>
 

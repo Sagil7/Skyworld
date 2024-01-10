@@ -25,9 +25,7 @@ function Servicedetail() {
       <p class="text-blk description">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fermentum pulvinar ullamcorper suspendisse ac eget. Pellentesque tempus leo in ullamcorper quis vestibulum ligula elementum ut.
       </p>
-      <a class="explore">
-        View Services
-      </a>
+   
     </div>
   </div>
 </div>

@@ -1,7 +1,9 @@
 .services{
 /* border: 1px solid black; */
 padding: 20px;  
-background-color: #f9faff;
+background-color: white;
+
+
 }
 .services h1{
     font-weight: 700;
@@ -23,8 +25,8 @@ background-color: #f9faff;
 }
 .card-img-top{
    background-color: white;
-    width: 150px;
-    height: 150px;
+    /* width: 150px;
+    height: 150px; */
 }
 #knowmore{
     width: 150px;

@@ -1,8 +1,9 @@
 import React from 'react'
 import './Crousel.css'
-import crousel1img from './crousleimg1.jpeg'
+import crousel1img from './crouselimg1.jpg'
 import crousel2img from './crousleimg2.jpg'
-import crousel3img from './crouselimg3.jpeg'
+import crousel3img from './crousleimg3.jpg'
+import { Link } from 'react-router-dom'
 
 const Crousel = () => {
     return ( 
@@ -15,24 +16,28 @@ const Crousel = () => {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img src={crousel1img} className="d-block w-100" data-bs-interval="4000" alt="..." />
-            <div className="carousel-caption d-none d-md-block" id='crousel1'>
-              {/* <h5>First slide label</h5> */}
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, accusamus.
+            <div className="carousel-caption d-none d-md-block crousel1" >
+              <h1 className='Covertitle' >Unlocking Capabilities</h1>
+              <h1 className='Covertitle' id='downcovertitle' >Elevating Successl.</h1>
+              <Link to="/about"> <button className='crouselbutton' >Know more</button></Link>
+             
             </div>
           </div>
           <div className="carousel-item">
             <img src={crousel2img} className="d-block w-100" data-bs-interval="4000" alt="..." />
-            <div className="carousel-caption d-none d-md-block">
-              {/* <h5>Second slide label</h5>
-              <p>Some representative placeholder content for the second slide.</p> */}
+            <div className="carousel-caption d-none d-md-block crousel1">
+              <h1 className='Covertitle' >Synergizing Efforts</h1>
+              <h1 className='Covertitle' id='downcovertitle' >Strengthening Workforce.</h1>
+              <Link to="/about"> <button className='crouselbutton' >Know more</button></Link>
             </div>
           </div>
           <div className="carousel-item">
             <img src={crousel3img} className="d-block w-100" data-bs-interval="4000" alt="..." />
-            <div className="carousel-caption d-none d-md-block">
-              {/* <h5>Third slide label</h5>
-              <p>Some representative placeholder content for the third slide.</p> */}
-            </div>
+            <div className="carousel-caption d-none d-md-block crousel1">
+            <h1 className='Covertitle' >Synergizing Efforts</h1>
+              <h1 className='Covertitle' id='downcovertitle' >Strengthening Workforce.</h1>
+              <Link to="/about"> <button className='crouselbutton' >Know more</button></Link>
+                </div>
           </div>
         </div>
         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
