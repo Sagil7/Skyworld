@@ -20,7 +20,7 @@ function Footer() {
 				
 				</p>
 
-				<p class="footer-company-name">Sky World © 2015</p>
+				<p class="footer-company-name">Sky World © 2021</p>
 			</div>
 
 			<div class="footer-center">
@@ -32,12 +32,12 @@ function Footer() {
 
 				<div>
 					<i class="fa fa-phone"></i>
-					<p>+918800435737</p>
+					<p>+91 1141076066</p>
 				</div>
 
 				<div>
 					<i class="fa fa-envelope"></i>
-					<p><a href="mailto:tradersexport9@gmail.com">tradersexport9@gmail.com</a></p>
+					<p><a href="mailto:info@skyworld.com">info@skyworld.com</a></p>
 				</div>
 
 			</div>
@@ -45,9 +45,8 @@ function Footer() {
 			<div class="footer-right">
 
 				<p class="footer-company-about">
-					<span>About the company</span>
-					Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
-				</p>
+					<span>About Us</span>
+					Skyworld Recruitment, a registered and well-reputed recruitment agency in India.Registered under the Ministry of Ministry of External Affairs, India (License No.618). 	</p>
 
 				<div class="footer-icons">
 

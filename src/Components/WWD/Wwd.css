@@ -35,6 +35,11 @@
     color: black;
     background-color: white;
 }
+.boxitems h3{
+    font-weight: 600;
+    /* font-size: 26px; */
+
+}
 #boxitemsspecial{
 background-color: #4f86f9;
 color: white;

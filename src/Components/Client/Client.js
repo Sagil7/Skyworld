@@ -1,46 +1,60 @@
 import React from 'react'
 import './Client.css'
 import img1 from './samsung.png'
+import client1 from './client1.png'
+import client2 from './client2.png'
+import client3 from './client3.png'
+import client4 from './client4.png'
+import client5 from './client5.png'
+import client6 from './client6.png'
 function Client() {
   return (
     <div>
         <h2 id='Our_Client'>Out Clients</h2>
       <div class="slider">
+        
     <div class="slide-track-1">
+      
         <div class="slide">
-            <img src={img1} alt="Comapany1"/>
-        </div>
-        <div class="slide">
-        <img src={img1} alt="Comapany1"/>
+        <img src={client1} alt="Comapany1"/>
         </div>
 
         <div class="slide">
-        <img src={img1} alt="Comapany1"/>
+        <img src={client2} alt="Comapany1"/>
         </div>
         <div class="slide">
-          <img src={img1} alt="Comapany1"/>
+          <img src={client3} alt="Comapany1"/>
         </div>
         <div class="slide">
-          <img src={img1} alt="Comapany1"/>
+          <img src={client4} alt="Comapany1"/>
         </div>
         <div class="slide">
-          <img src={img1} alt="Comapany1"/>
+          <img src={client5} alt="Comapany1"/>
         </div>
         <div class="slide">
-          <img src={img1} alt="Comapany1"/>
+          <img src={client6} alt="Comapany1"/>
+        </div>
+      
+        <div class="slide">
+        <img src={client1} alt="Comapany1"/>
+        </div>
+
+        <div class="slide">
+        <img src={client2} alt="Comapany1"/>
         </div>
         <div class="slide">
-          <img src={img1} alt="Comapany1"/>
+          <img src={client3} alt="Comapany1"/>
         </div>
         <div class="slide">
-          <img src={img1} alt="Comapany1"/>
+          <img src={client4} alt="Comapany1"/>
         </div>
         <div class="slide">
-          <img src={img1} alt="Comapany1"/>
+          <img src={client5} alt="Comapany1"/>
         </div>
         <div class="slide">
-          <img src={img1} alt="Comapany1"/>
+          <img src={client6} alt="Comapany1"/>
         </div>
+      
       
       
    

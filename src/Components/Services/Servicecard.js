@@ -9,67 +9,71 @@ import plumber from './plumber.jpg'
 import driver from './driver.jpg'
 import itimg from './It.jpg'
 import { Link, NavLink } from 'react-router-dom'
-function Servicecard({vis,visbutton}) {
+function Servicecard({ vis, visbutton }) {
     return (
         <div className='services'>
-            <h1>Our Services</h1>
+            <h1 style={visbutton} >Our Services </h1>
+            <h1 style={vis}>Our Core sectors</h1>
+            <h2 style={visbutton}>A Leading Institution in India for Recruitment, Spanning Unskilled Labor to Upper Management.</h2>
+            <p style={visbutton}>
+                Our core service sectors are Construction, Chemical & Petrochemical Complexes, Oil & Gas, Transportation Services, Hospitality, Infrastructure, Manufacturing, Health& Fitness, Mine & Refinery, Man Power Supply, Taxi & Limousine services, Trading, Restaurants & Cafe, MEP, Facility Management Etc</p>
             <div className='serviece1'>
 
-                <div class="card" style={{width: '18rem'}}>
+                <div class="card" style={{ width: '18rem' }}>
                     <img class="card-img-top" src={hrimg} alt="Card image cap" />
                     <div class="card-body">
-                        <h2 class="card-title">CIVIL</h2>
+                        <h3 class="card-title">CIVIL</h3>
                     </div>
                 </div>
-                <div class="card" style={{width: '18rem'}}>
+                <div class="card" style={{ width: '18rem' }}>
                     <img class="card-img-top" src={electrical} alt="Card image cap" />
                     <div class="card-body">
-                        <h2 class="card-title">ELECTRICAL</h2>
+                        <h3 class="card-title">ELECTRICAL</h3>
                     </div>
                 </div>
-                <div class="card" style={{width: '18rem'}}>
+                <div class="card" style={{ width: '18rem' }}>
                     <img class="card-img-top" src={healthcare} alt="Card image cap" />
                     <div class="card-body">
-                        <h2 class="card-title">HEALTHCARE</h2>
+                        <h3 class="card-title">HEALTHCARE</h3>
                     </div>
                 </div>
-                <div class="card" style={{width: '18rem'}}>
+                <div class="card" style={{ width: '18rem' }}>
                     <img class="card-img-top" src={mechanical} alt="Card image cap" />
                     <div class="card-body">
-                        <h2 class="card-title">MECHANICAL</h2>
+                        <h3 class="card-title">MECHANICAL</h3>
                     </div>
                 </div>
 
             </div>
             <div className='serviece2' style={vis} >
-            <div class="card" style={{width: '18rem'}}>
+                <div class="card" style={{ width: '18rem' }}>
                     <img class="card-img-top" src={clean} alt="Card image cap" />
                     <div class="card-body">
-                        <h2 class="card-title">CLEANING</h2>
+                        <h3 class="card-title">CLEANING</h3>
                     </div>
                 </div>
-                <div class="card" style={{width: '18rem'}}>
+                <div class="card" style={{ width: '18rem' }}>
                     <img class="card-img-top" src={plumber} alt="Card image cap" />
                     <div class="card-body">
-                        <h2 class="card-title">PLUBMBER</h2>
+                        <h3 class="card-title">PLUBMBER</h3>
                     </div>
                 </div>
-                <div class="card" style={{width: '18rem'}}>
+                <div class="card" style={{ width: '18rem' }}>
                     <img class="card-img-top" src={driver} alt="Card image cap" />
                     <div class="card-body">
-                        <h2 class="card-title">DRIVER</h2>
+                        <h3 class="card-title">DRIVER</h3>
                     </div>
                 </div>
-                <div class="card" style={{width: '18rem'}}>
+                <div class="card" style={{ width: '18rem' }}>
                     <img class="card-img-top" src={itimg} alt="Card image cap" />
                     <div class="card-body">
-                        <h2 class="card-title">IT</h2>
+                        <h3 class="card-title">IT</h3>
                     </div>
                 </div>
 
 
             </div>
-            <Link to="/services"><button id='knowmore' style={visbutton} >know more </button></Link>
+            <Link to="/services"><button id='knowmore' style={visbutton} >know more → </button></Link>
 
         </div>
     )

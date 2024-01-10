@@ -5,10 +5,10 @@ function Topbar() {
     <>
     <div className="topbar"> 
    <div className="email">
-   <i className="fa-solid fa-envelope"></i>tradersexport9@gmail.com 
+   <i className="fa-solid fa-envelope"></i>info@skyworld.com 
    </div>
    <div className="phone">
-   <i className="fa-solid fa-phone"></i>8800435737
+   <i className="fa-solid fa-phone"></i>+91 1141076066
    </div>
    <div className="socialmedia">
      <a href="https://www.facebook.com/profile.php?id=61554521030244&mibextid=ZbWKwL" target="_blank"><i className="fa-brands fa-twitter" id="twiter"></i></a>
