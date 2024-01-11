@@ -22,25 +22,25 @@ function Servicecard({ vis, visbutton }) {
                 <div class="card" style={{ width: '18rem' }}>
                     <img class="card-img-top" src={hrimg} alt="Card image cap" />
                     <div class="card-body">
-                        <h3 class="card-title">CIVIL</h3>
+                        <h3 class="card-title">Civil</h3>
                     </div>
                 </div>
                 <div class="card" style={{ width: '18rem' }}>
                     <img class="card-img-top" src={electrical} alt="Card image cap" />
                     <div class="card-body">
-                        <h3 class="card-title">ELECTRICAL</h3>
+                        <h3 class="card-title">Electrical</h3>
                     </div>
                 </div>
                 <div class="card" style={{ width: '18rem' }}>
                     <img class="card-img-top" src={healthcare} alt="Card image cap" />
                     <div class="card-body">
-                        <h3 class="card-title">HEALTHCARE</h3>
+                        <h3 class="card-title">Healthcare</h3>
                     </div>
                 </div>
                 <div class="card" style={{ width: '18rem' }}>
                     <img class="card-img-top" src={mechanical} alt="Card image cap" />
                     <div class="card-body">
-                        <h3 class="card-title">MECHANICAL</h3>
+                        <h3 class="card-title">Mechanical</h3>
                     </div>
                 </div>
 
@@ -49,19 +49,19 @@ function Servicecard({ vis, visbutton }) {
                 <div class="card" style={{ width: '18rem' }}>
                     <img class="card-img-top" src={clean} alt="Card image cap" />
                     <div class="card-body">
-                        <h3 class="card-title">CLEANING</h3>
+                        <h3 class="card-title">Cleaning</h3>
                     </div>
                 </div>
                 <div class="card" style={{ width: '18rem' }}>
                     <img class="card-img-top" src={plumber} alt="Card image cap" />
                     <div class="card-body">
-                        <h3 class="card-title">PLUBMBER</h3>
+                        <h3 class="card-title">Plumber</h3>
                     </div>
                 </div>
                 <div class="card" style={{ width: '18rem' }}>
                     <img class="card-img-top" src={driver} alt="Card image cap" />
                     <div class="card-body">
-                        <h3 class="card-title">DRIVER</h3>
+                        <h3 class="card-title">Transportation</h3>
                     </div>
                 </div>
                 <div class="card" style={{ width: '18rem' }}>
