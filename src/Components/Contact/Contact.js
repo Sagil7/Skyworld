@@ -44,14 +44,14 @@ function Contact() {
             <div class="heading text-center">
                 <h2>Contact
                     <span> Us </span></h2>
-                <p>"Connecting with us is more than just a click; it's an opportunity to turn possibilities 
+                <p>Connecting with us is more than just a click; it's an opportunity to turn possibilities 
                     <br/>into realities. Drop us a line, and let's weave success together.</p>
             </div>
             <div class="row">
                 <div class="col-md-5">
                     <div class="title">
                         <h3>Contact detail</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+                        <p>Get in touch with us by calling, emailing, or dropping by our location. </p>
                     </div>
                     <div class="content">
                         {/* <!-- Info-1 --> */}
@@ -59,20 +59,20 @@ function Contact() {
                             <i class="fas fa-mobile-alt"></i>
                             <h4 class="d-inline-block">PHONE :
                                 <br/>
-                                <span>+12457836913 , +12457836913</span></h4>
+                                <span>+91 1141076066</span></h4>
                         </div>
                         {/* <!-- Info-2 --> */}
                         <div class="info">
                             <i class="far fa-envelope"></i>
                             <h4 class="d-inline-block">EMAIL :
                                 <br/>
-                                <span>example@info.com</span></h4>
+                                <span>info@skyworld.com</span></h4>
                         </div>
                         {/* <!-- Info-3 --> */}
                         <div class="info">
                             <i class="fas fa-map-marker-alt"></i>
                             <h4 class="d-inline-block">ADDRESS :<br/>
-                                <span>6743 last street , Abcd, Xyz</span></h4>
+                                <span>3RD FLOOR, 54-B, SARAI JULAINA New Delhi, <br />South East Delhi-110025</span></h4>
                         </div>
                     </div>
                 </div>
