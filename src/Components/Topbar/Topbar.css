@@ -1,11 +1,10 @@
 .topbar{
-    background-color: #052f48;
+    background-color: #d9b36d;
     width: 100%;
     height: 43px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    border: 0.1px solid black;
     color: white;
 }
 .email {

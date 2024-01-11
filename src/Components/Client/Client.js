@@ -9,8 +9,8 @@ import client5 from './client5.png'
 import client6 from './client6.png'
 function Client() {
   return (
-    <div>
-        <h2 id='Our_Client'>Out Clients</h2>
+    <div className='Our_Client'>
+        <h2 id='Our_Client'>Our Reputed Clients</h2>
       <div class="slider">
         
     <div class="slide-track-1">

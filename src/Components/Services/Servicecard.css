@@ -1,8 +1,8 @@
 .services{
 /* border: 1px solid black; */
-margin: 10px 0;
+margin: 0px;
 padding: 20px;  
-background-color: rgb(227, 227, 227);
+background-color: #f7efda;
 
 
 
@@ -40,6 +40,7 @@ background-color: rgb(227, 227, 227);
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .card-img-top{
    background-color: white;
@@ -57,7 +58,7 @@ background-color: rgb(227, 227, 227);
     border: 1px solid black;
 }
 #knowmore:hover{
-    background-color: #052f48;
+    background-color: #01014c;
     color: white;
     /* border: none; */
     

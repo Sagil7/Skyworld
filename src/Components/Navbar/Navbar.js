@@ -2,6 +2,7 @@ import React from 'react'
 import { useState, useEffect,useRef } from "react";
 import { NavLink } from 'react-router-dom';
 import Logo from './skyworldlogo.jpg'
+import logo1 from './skyworld1.png'
 
 import './Navbar.css'
 function Navbar() {
@@ -26,7 +27,7 @@ const handleClick =() =>{
       <header id="header">
         <div className={val}>
           <div id="logo">
-            <NavLink to="/"><img src={Logo} alt="SkyWorld" title="" /></NavLink>
+            <NavLink to="/"><img src={logo1} alt="SkyWorld" title="" /></NavLink>
           </div>
           <input type="checkbox" id="click" />
           <label htmlFor="click" className="menu-btn" ref={refClose}>

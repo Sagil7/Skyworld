@@ -1,6 +1,42 @@
 import React from 'react'
 import './Contact.css'
+import emailjs, { send } from '@emailjs/browser';
+import { useRef } from 'react';
+import { useNavigate } from 'react-router-dom';
+// import { uavigate } from 'react-router-dom'
 function Contact() {
+
+    const form = useRef();
+    const navigate = useNavigate();
+
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs.sendForm('service_l9il6dh', 'template_nptqqjd', form.current, 'uy9ODf3iwShW7SnU1')
+        .then((result) => {
+            console.log(result.text);
+            alert("Submitted Successfully")
+			navigate('/');
+        }, (error) => {
+            console.log(error.text);
+        });
+    };
+   
+
+
+    // const sendEmail = (e) => {
+	// 	e.preventDefault();
+	// 	emailjs.sendForm('service_l9il6dh', 'template_nptqqjd', e.target,
+	// 		'TSeElFnBYRhX9h_ik').then(res => {
+	// 			console.log(res);
+	// 			alert("Submitted Successfully")
+	// 			Navigate('/');
+	// 		}).catch(err => {
+	// 			console.log(err);
+	// 		})
+	// }
+ 
+
   return (
     <div>
       <section class="contact" id="contact">
@@ -43,22 +79,23 @@ function Contact() {
 
                 <div class="col-md-7">
 
-                    <form>
+                    <form ref={form} onSubmit={sendEmail}>
                         <div class="row">
                             <div class="col-sm-6">
-                                <input type="text" class="form-control" placeholder="Name"/>
+                                <input type="text" class="form-control" placeholder="Name" name="name"/>
                             </div>
                             <div class="col-sm-6">
-                                <input type="email" class="form-control" placeholder="Email"/>
+                                <input type="email" class="form-control" placeholder="Email" name="email"/>
                             </div>
                             <div class="col-sm-12">
-                                <input type="text" class="form-control" placeholder="Subject"/>
+                                <input type="number" class="form-control" placeholder="Phone no" name="phone"/>
                             </div>
                         </div>
                         <div class="form-group">
-                            <textarea class="form-control" rows="5" id="comment" placeholder="Message"></textarea>
+                            <textarea class="form-control" rows="5" id="comment" placeholder="Message" name="message"></textarea>
                         </div>
-                        <button class="btn btn-block" type="submit">Send Now!</button>
+                        {/* <input type="submit" value="Send" /> */}
+                        <button class="btn btn-block" type="submit" value="Send">Send Now!</button>
                     </form>
                 </div>
             </div>

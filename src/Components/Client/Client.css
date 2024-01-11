@@ -1,6 +1,17 @@
+.Our_Client{
+    background-color: #efeef2;
+    margin-top: 20px;
+}
+#Our_Client{
+    text-align: center;
+    padding-left: 3%;
+    font-weight: 700;
+    /* background-color: #efeef2; */
+
+}
 .slider {
     background: #efeef2;
-    height: 350px;
+    height: 300px;
     margin: 0px auto;
     overflow: hidden;
     position: relative;
@@ -11,9 +22,7 @@
     align-items: center;
     justify-content: center;
 }
-#Our_Client{
-    font-weight: 700;
-}
+
 
 .slider:before {
     left: 0;

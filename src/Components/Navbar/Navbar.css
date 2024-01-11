@@ -7,7 +7,7 @@
   .navbox{
       display: flex;
       justify-content: space-around;
-      background-color: white;
+      background-color: #2b292a;
       width: 100%;
       height: 11vh;
     min-height: 70px;
@@ -17,14 +17,14 @@
       
        }
        .sticky{
-        background-color: white;
+        background-color: #2b292a;
         transition: all 1s ease;
         box-shadow: rgba(0, 0, 0, 0.2) 0px 34px 40px -7px;
         margin-bottom: 5px;
        }
   #header #logo img{
-    /* height: 68px;
-    width: 300px; */
+    height: 68px;
+    width: 300px;
     }
  .navitems{
      display: flex;
@@ -38,7 +38,7 @@
  .navbox .menu-btn i{
      font-size: 38px;
      display: none;
-     color: #107d4d;
+     color: #d9b36d;
      cursor: pointer;
      transition: all 0.2s ease-in;
  }
@@ -49,13 +49,14 @@
  .navitems li {
     margin: 5px;
     
+    
 }
 
 .navitems li a{
   text-decoration: none;
   font-size: 18px;
   padding: 0px 3px;
-  color: #4e4e4e;
+  color: white;
   font-weight: 600;
 }
 /* .navitems li a.active{
@@ -68,7 +69,7 @@
 .navitems li a:hover,
 .navitems li a:active,
 .navitems li a:focus {
-color: #156eff;
+color: #d9b36d;
 outline: none;
 text-decoration: none;
 }
@@ -79,12 +80,12 @@ min-width: 11.2rem;
     display: none;
 }
 .navbox .red-btn{
-  background-color: #156eff;  
+  background-color: #d9b36d;  
   border: none; margin-left: 12px;
   transition: all 0.7s ease;
 }
 .navbox .red-btn:hover{
-  background-color: #3f88ff;
+  background-color: #d9b36d;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   transition: all 0.7s ease;
 }

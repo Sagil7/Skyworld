@@ -7,7 +7,7 @@
     /* height: 700px; */
     margin-top: 0px;
     justify-content: space-evenly;
-    background-color: #f9faff;
+    background-color: #fcf7ec;
 }
 .leftcontainer{
     /* padding-left: 55px; */
@@ -41,11 +41,11 @@
 
 }
 #boxitemsspecial{
-background-color: #4f86f9;
+background-color: #d9b36d;
 color: white;
 }
 .boxitems:hover{
-    background-color: #4f86f9;
+    background-color: #d9b36d;
     box-shadow: 10px 10px 5px #052f48;
     color: white;
    
@@ -84,7 +84,7 @@ color: white;
     width: 124px;
     height: 52px;
     color: white;
-    background-color:#4f86f9 ;
+    background-color:#d9b36d ;
 }
 @media (max-width:850px) {
     .firstcontainer{
