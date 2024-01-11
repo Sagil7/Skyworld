@@ -17,7 +17,7 @@ function Aboutus() {
         About Us
       </p>
       <p class="text-blk1 subHeading1">
-      Skyworld Recruitment, a registered and well-reputed recruitment agency in India.Registered under the Ministry of Ministry of External Affairs, India (License No.618). We strictly adhere to all laws and legislation governed by the Indian Government. With years of service, we at Skyworld Recruitment Supply in India have assisted hundreds of organizations across various industrial sectors in Qatar with skilled and unskilled labor. Our paramount goal is to deliver top-notch manpower supply services, ensuring quality and satisfaction for all our esteemed clients..
+      Skyworld Recruitment, a registered and well-reputed recruitment agency in India.Registered under the Ministry of Ministry of External Affairs, India (License No.618). We strictly adhere to all laws and legislation governed by the Indian Government. With years of service, we at Skyworld Recruitment Supply in India have assisted hundreds of organizations across various industrial sectors in Qatar with skilled and unskilled labour. Our paramount goal is to deliver top-notch manpower supply services, ensuring quality and satisfaction for all our esteemed clients..
       </p>
       <h3>Our Mission</h3>
       <p class="text-blk1 subHeading1">

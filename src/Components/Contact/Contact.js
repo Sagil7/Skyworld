@@ -44,8 +44,8 @@ function Contact() {
             <div class="heading text-center">
                 <h2>Contact
                     <span> Us </span></h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    <br/>incididunt ut labore et dolore magna aliqua.</p>
+                <p>"Connecting with us is more than just a click; it's an opportunity to turn possibilities 
+                    <br/>into realities. Drop us a line, and let's weave success together.</p>
             </div>
             <div class="row">
                 <div class="col-md-5">

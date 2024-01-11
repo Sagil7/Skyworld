@@ -14,7 +14,7 @@ function Servicecard({ vis, visbutton }) {
         <div className='services'>
             <h1 style={visbutton} >Our Services </h1>
             <h1 style={vis}>Our Core sectors</h1>
-            <h2 style={visbutton}>A Leading Institution in India for Recruitment, Spanning Unskilled Labor to Upper Management.</h2>
+            <h2 style={visbutton}>A Leading Institution in India for Recruitment, Spanning Unskilled labour to Upper Management.</h2>
             <p style={visbutton}>
                 Our core service sectors are Construction, Chemical & Petrochemical Complexes, Oil & Gas, Transportation Services, Hospitality, Infrastructure, Manufacturing, Health& Fitness, Mine & Refinery, Man Power Supply, Taxi & Limousine services, Trading, Restaurants & Cafe, MEP, Facility Management Etc</p>
             <div className='serviece1'>
